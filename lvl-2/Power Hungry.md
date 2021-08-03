@@ -1,3 +1,4 @@
+```bash
 Requesting challenge...
 Rumor has it the bunny trainers are inexplicably fond of bananas. You're an apple person yourself, but you file the information away for future reference. You never know when you might need to bribe a trainer (or three)...
 New challenge "Power Hungry" added to your home folder.
@@ -13,6 +14,8 @@ constraints.txt
 readme.txt
 solution.py
 foobar:~/power-hungry stefan.caraiman$ cat readme.txt 
+```
+
 Power Hungry
 ============
 
@@ -56,6 +59,8 @@ Output:
     60
 
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
+
+```
 foobar:~/power-hungry stefan.caraiman$ ls
 Solution.java
 constraints.txt
@@ -77,6 +82,7 @@ foobar:~/power-hungry stefan.caraiman$ verify solution.py
 Verifying solution...
 All test cases passed. Use submit solution.py to submit your solution
 foobar:~/power-hungry stefan.caraiman$ cat solution.py 
+
 def​ ​solution(xs):
 ​ ​​ ​​ ​​ ​if(xs.count(0)​ ​==​ ​len(xs)):
 ​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​return(str(0))
@@ -92,3 +98,5 @@ def​ ​solution(xs):
 ​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​BigNeg​ ​=​ ​max([n​ ​for​ ​n​ ​in​ ​xs​ ​if​ ​n​ ​<​ ​0])
 ​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​Val​ ​=​ ​Val/BigNeg
 ​ ​​ ​​ ​​ ​return(str(int(Val)))
+
+```
