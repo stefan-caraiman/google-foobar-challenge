@@ -1,5 +1,7 @@
 New challenge "Minion Work Assignments" added to your home folder.
 Time to solve: 168 hours.
+
+```bash
 foobar:~/ stefan.caraiman$ ls
 minion-work-assignments
 journal.txt
@@ -7,8 +9,11 @@ start_here.txt
 foobar:~/ stefan.caraiman$ pwd
 /home/stefan.caraiman
 foobar:~/ stefan.caraiman$ cat journal.txt 
+```
+
 Success! You've managed to infiltrate Commander Lambda's evil organization, and finally earned yourself an entry-level position as a Minion on their space station. From here, you just might be able to subvert Commander Lambda's plans to use the LAMBCHOP doomsday device to destroy Bunny Planet. Problem is, Minions are the lowest of the low in the Lambda hierarchy. Better buck up and get working, or you'll never make it to the top...
 
+```bash
 Commander Lambda sure is a task-master, aren't they? You're being worked to the bone!
 foobar:~/ stefan.caraiman$ ls
 minion-work-assignments
@@ -36,6 +41,8 @@ constraints.txt
 readme.txt
 solution.py
 foobar:~/minion-work-assignments stefan.caraiman$ cat readme.txt 
+
+```
 Minion Work Assignments
 =======================
 
@@ -78,7 +85,10 @@ Solution.solution({1, 2, 2, 3, 3, 3, 4, 5, 5}, 1)
 Output:
     1,4
 
+
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
+
+```bash
 foobar:~/minion-work-assignments stefan.caraiman$ cat solution.py 
 def​ ​solution(data,​ ​n):​ ​
 ​ ​​ ​​ ​​ ​#​ ​Your​ ​code​ ​here
@@ -270,3 +280,6 @@ Level 5:   0% [..........................................]
 Type request to request a new challenge now, or come back later.
 foobar:~/ stefan.caraiman$ request
 Requesting challenge...
+
+
+```
